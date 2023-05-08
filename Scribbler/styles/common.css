@@ -1,0 +1,67 @@
+#head {
+    font-family: 'Montez', cursive;
+    font-size: 35px;
+    top: 6px;
+    left: 6px;
+    color: blue;
+}
+#sub-head{
+    font-family: 'Ubuntu mono' , cursive;
+    font-size: medium;
+    color: black;
+}
+.a{
+    float: right;
+}
+.Top-right{
+    background-color:#0000ff;
+    color:white;
+    width:80px;
+    padding:7px;
+    border: solid 1px black;
+}
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+.center{
+    padding:9px;
+    margin-bottom: 50px;
+    font-weight:bolder;
+    background-color:#cfb53b;
+    border: 2px rgb(15, 0, 0);
+  }
+
+  .modal-body{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-family: sans-serif;
+    margin: 5px;
+    font-size: large;
+}
+input{
+    background-color: gainsboro;
+    border: none;
+    padding: 8px;
+}
+#SignUp{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#SignIn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.text-center{
+    padding: 5px;
+    font-family: 'Josefin sans';
+}
+.calling{
+    color: blue;
+}
