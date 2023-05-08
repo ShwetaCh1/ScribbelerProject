@@ -1,0 +1,40 @@
+body{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/background.jpg');
+    overflow: hidden;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-family: sans-serif;
+    margin: 5px;
+    font-size: large;
+}
+input{
+    background-color: gainsboro;
+    border: none;
+    padding: 8px;
+}
+#SignUp{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#SignIn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+textarea{
+    background-color: gainsboro;
+    border: none;
+    padding: 8px;
+}
+#createbtn{
+    justify-content: center;
+}
